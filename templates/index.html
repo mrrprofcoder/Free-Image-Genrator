@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎨 Free Image Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .header {
+            text-align: center;
+            margin-top: 30px;
+            color: #fff;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            font-size: 18px;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            resize: vertical;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        select, button {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        button {
+            background: linear-gradient(90deg, #ff416c, #ff4b2b);
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: linear-gradient(90deg, #ff4b2b, #ff416c);
+        }
+        .result img {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 15px;
+            border: 4px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #bbb;
+            font-size: 14px;
+        }
+    </style>
+    <script>
+        function showLoadingCursor(imgElement) {
+            imgElement.style.cursor = 'progress';
+            // simulate processing delay (optional)
+            setTimeout(() => {
+                imgElement.style.cursor = 'pointer';
+            }, 3000); // restore after 3 sec
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1 style="font-size: 3rem; font-weight: bold; background: linear-gradient(to right, #ff416c, #ff4b2b); -webkit-background-clip: text; background-clip: text; color: transparent;">
+            🎨 Free Image Generator
+        </h1>
+        <p>Generate beautiful AI images using multiple models</p>
+    </div>
+
+    <div class="container">
+        <form method="POST">
+            <div class="form-group">
+                <label for="prompt">Enter Your Prompt:</label>
+                <textarea id="prompt" name="prompt" placeholder="Describe the image you want..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="model">Select Model:</label>
+                <select id="model" name="model" required>
+                    <option value="MoneyPrinterTurbo">💸 MoneyPrinterTurbo</option>
+                    <option value="Anime Character Generator">🎎 Anime Character Generator</option>
+                    <option value="Jackey">📜 Jackey</option>
+                    <option value="Polynate">🎨 Polynate</option>
+                    <option value="Memed">😂 Memed</option>
+                    <option value="Elixpo-Art">🎭 Elixpo-Art</option>
+                    <option value="MIDIjourney">🎼 MIDIjourney</option>
+                    <option value="TurboReel">🎞 TurboReel</option>
+                    <option value="StoryWeaver">📖 StoryWeaver</option>
+                    <option value="AI PPT Maker">🎤 AI PPT Maker</option>
+                    <option value="flux">⚡ flux</option>
+                    <option value="turbo">🚀 turbo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="theme">Select Theme:</label>
+                <select id="theme" name="theme" required>
+                    <option value="realistic landscape">Realistic Landscape</option>
+                    <option value="anime girl">Anime Girl</option>
+                    <option value="fantasy city">Fantasy City</option>
+                    <option value="3D robot">3D Robot</option>
+                    <option value="cyberpunk street">Cyberpunk Street</option>
+                    <option value="pixel art dragon">Pixel Art Dragon</option>
+                    <option value="cartoon dog">Cartoon Dog</option>
+                    <option value="space station">Space Station</option>
+                    <option value="ancient ruins">Ancient Ruins</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Generate 🔥</button>
+            </div>
+        </form>
+
+        {% if image_path %}
+        <div class="result">
+            <h2>Generated Image:</h2>
+            <img src="{{ image_path }}" alt="Generated Image" onclick="showLoadingCursor(this)">
+        </div>
+        {% endif %}
+    </div>
+
+    <footer>
+        <p>🚫 For Non-Commercial Use Only 🚫</p>
+    </footer>
+</body>
+</html>
