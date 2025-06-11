@@ -14,7 +14,7 @@
 
 ## Preview
 
-![Website Screenshot](assets/screenshot.png)
+![Website Screenshot](assets/Screenshot.png)
 
 ## 🎯 What is Free Image Generator?
 
@@ -69,52 +69,54 @@ pip install -r requirements.txt
 # 6️⃣ Run the app
 python Main/app.py
 
-🌐 How To Use
+---
 
-1️⃣ After running, open your browser and visit:
+## 🌐 Application Usage
+
+## How To Use
+
+1️⃣ After running, open your browser and visit:  
 http://127.0.0.1:5000/
-2️⃣ 🔥 Enter your text prompt in the big box.
+
+2️⃣ 🔥 Enter your text prompt.
+
 3️⃣ 🎯 Select your favorite model & theme.
+
 4️⃣ 🖼️ Choose aspect ratio.
-5️⃣ 💥 Hit Generate Image button.
-6️⃣ 🎉 Boom! Your AI-generated image will appear below.
+
+5️⃣ 💥 Hit **Generate Image** button.
+
+6️⃣ 🎉 Your AI-generated image will appear below.
+
 7️⃣ 💾 You can right-click and save the image anytime.
 
+---
 
-🎯 Available Models
+## 🎯 Available Models
 
 We support multiple models from several AI image engines for better results:
 
-MoneyPrinterTurbo 💸
+- 💸 MoneyPrinterTurbo
+- 🎎 Anime Character Generator
+- 📜 Jackey
+- 🎨 Polynate
+- 😂 Memed
+- 🎭 Elixpo-Art
+- 🎼 MIDIjourney
+- 🎞 TurboReel
+- 📖 StoryWeaver
+- 🎤 AI PPT Maker
+- ⚡ flux
+- 🚀 turbo
 
-Anime Character Generator 🎎
+---
 
-Jackey 📜
+## 🌈 Support & Contribute
 
-Polynate 🎨
+- Feel free to fork and modify 🍴
+- Pull Requests are welcome 🚀
+- Star ⭐ the repo if you love it ❤️
 
-Memed 😂
+---
 
-Elixpo-Art 🎭
-
-MIDIjourney 🎼
-
-TurboReel 🎞
-
-StoryWeaver 📖
-
-AI PPT Maker 🎤
-
-flux ⚡
-
-turbo 🚀
-
-🌈 Support & Contribute
-
-Feel free to fork and modify! 🍴
-
-Pull Requests are welcome 🚀
-
-Star ⭐ the repo if you love it ❤️
-
-🎉 Enjoy generating unlimited AI images with Free Image Generator!
+🎉 Enjoy generating unlimited AI images with **Free Image Generator!**
