@@ -49,10 +49,10 @@ With multiple models, creative themes, and custom aspect ratios — you can turn
 
 ```bash
 # 1️⃣ Clone the repo:
-git clone https://github.com/yourusername/free-image-generator.git
+git clone https://github.com/mrrprofcoder/Free-Image-Genrator.git
 
 # 2️⃣ Move into the folder
-cd free-image-generator
+cd Free-Image-Genrator
 
 # 3️⃣ (Optional) Create a virtual environment
 python -m venv venv
