@@ -13,7 +13,7 @@
 
 ## Preview
 
-![Website Screenshot](assets/screenshot.png)
+![Website Screenshot](assets/Screenshot.png)
 
 ## 🎯 What is Free Image Generator?
 
