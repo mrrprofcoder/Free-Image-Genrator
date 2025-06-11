@@ -11,10 +11,11 @@
 
 ---
 
-
-## Preview
+## 📸 Preview
 
 ![Website Screenshot](assets/Screenshot.png)
+
+---
 
 ## 🎯 What is Free Image Generator?
 
@@ -26,54 +27,35 @@ With multiple models, creative themes, and custom aspect ratios — you can turn
 
 ---
 
-## 🔥 Key Features
+## 🔧 Setup Guide (One Copy Setup ✅)
 
-- 🧠 Multiple AI models to select  
-- 🎯 Multiple themes like anime, realistic, 3D, fantasy, pixel art, etc  
-- 🖼 Aspect ratio selection (square, portrait, landscape)  
-- 💾 Downloadable images  
-- 🎨 Simple & modern web UI  
-- 🌐 Fully offline (no cloud required)  
-- ⚠ Non-commercial use (safe for students, devs & learners)
-
----
-
-## 🚀 How To Install & Run
-
-### 🖥 Requirements
-
-- ✅ Python 3.9+
-- ✅ Virtualenv (optional but highly recommended)
-
-### 🔧 Setup Guide
+<details>
+<summary>Click to expand setup instructions</summary>
 
 ```bash
-# 1️⃣ Clone the repo:
-git clone https://github.com/mrrprofcoder/Free-Image-Genrator.git
+# Clone the repository
+git clone https://github.com/yourusername/free-image-generator.git
 
-# 2️⃣ Move into the folder
-cd Free-Image-Genrator
+# Move into project directory
+cd free-image-generator
 
-# 3️⃣ (Optional) Create a virtual environment
+# (Optional but recommended) Create virtual environment
 python -m venv venv
 
-# 4️⃣ Activate your venv
-# Windows:
+# Activate virtual environment
+# For Windows:
 venv\Scripts\activate
-# Mac/Linux:
+# For Mac/Linux:
 source venv/bin/activate
 
-# 5️⃣ Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 6️⃣ Run the app
+# Run the application
 python Main/app.py
-
----
+<details>```
 
 ## 🌐 Application Usage
-
-## How To Use
 
 1️⃣ After running, open your browser and visit:  
 http://127.0.0.1:5000/
@@ -93,8 +75,6 @@ http://127.0.0.1:5000/
 ---
 
 ## 🎯 Available Models
-
-We support multiple models from several AI image engines for better results:
 
 - 💸 MoneyPrinterTurbo
 - 🎎 Anime Character Generator
