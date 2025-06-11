@@ -11,72 +11,89 @@
 
 ---
 
-## 🔧 Setup Guide
+## Preview
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/free-image-generator.git
+![Website Screenshot](assets/screenshot.png)
 
-# Move into project directory
-cd free-image-generator
+## 🎯 What is Free Image Generator?
 
-# (Optional but recommended) Create virtual environment
-python -m venv venv
+🎨 **Free Image Generator** is a fully open-source, AI-powered tool that allows anyone to easily generate stunning images directly from text prompts.
 
-# Activate virtual environment
-# For Windows:
-venv\Scripts\activate
-# For Mac/Linux:
-source venv/bin/activate
+With multiple models, creative themes, and custom aspect ratios — you can turn your imagination into art in seconds ⚡
 
-# Install dependencies
-pip install -r requirements.txt
+🖼️ Whether you're making anime art, fantasy worlds, futuristic cities, or even 3D robots — this app got you covered!
 
-# Run the application
-python Main/app.py
+---
 
-## 🌐 Application Usage
+## 🌐 How To Use
 
 1️⃣ After running, open your browser and visit:  
-http://127.0.0.1:5000/
+**http://127.0.0.1:5000/**
 
-2️⃣ 🔥 Enter your text prompt.
-
-3️⃣ 🎯 Select your favorite model & theme.
-
-4️⃣ 🖼️ Choose aspect ratio.
-
-5️⃣ 💥 Hit **Generate Image** button.
-
-6️⃣ 🎉 Your AI-generated image will appear below.
-
+2️⃣ 🔥 Enter your text prompt in the big box.  
+3️⃣ 🎯 Select your favorite model & theme.  
+4️⃣ 🖼️ Choose aspect ratio.  
+5️⃣ 💥 Hit **Generate Image** button.  
+6️⃣ 🎉 Boom! Your AI-generated image will appear below.  
 7️⃣ 💾 You can right-click and save the image anytime.
 
 ---
 
 ## 🎯 Available Models
 
-- 💸 MoneyPrinterTurbo
-- 🎎 Anime Character Generator
-- 📜 Jackey
-- 🎨 Polynate
-- 😂 Memed
-- 🎭 Elixpo-Art
-- 🎼 MIDIjourney
-- 🎞 TurboReel
-- 📖 StoryWeaver
-- 🎤 AI PPT Maker
-- ⚡ flux
-- 🚀 turbo
+We support multiple models from several AI image engines for better results:
+
+- 💸 **MoneyPrinterTurbo**
+- 🎎 **Anime Character Generator**
+- 📜 **Jackey**
+- 🎨 **Polynate**
+- 😂 **Memed**
+- 🎭 **Elixpo-Art**
+- 🎼 **MIDIjourney**
+- 🎞 **TurboReel**
+- 📖 **StoryWeaver**
+- 🎤 **AI PPT Maker**
+- ⚡ **flux**
+- 🚀 **turbo**
 
 ---
 
 ## 🌈 Support & Contribute
 
-- Feel free to fork and modify 🍴
-- Pull Requests are welcome 🚀
-- Star ⭐ the repo if you love it ❤️
+- Feel free to **fork and modify** 🍴
+- **Pull Requests are welcome** 🚀
+- **Star ⭐ the repo** if you love it ❤️
+- 🎉 Enjoy generating unlimited AI images with **Free Image Generator**!
 
 ---
 
-🎉 Enjoy generating unlimited AI images with **Free Image Generator!**
+## 🚀 How To Install & Run
+
+### 🖥 Requirements
+
+- ✅ Python 3.9+
+- ✅ Virtualenv (optional but highly recommended)
+
+### 🔧 Setup Guide (One Click Copy ✅)
+
+```bash
+# 1️⃣ Clone the repo:
+git clone https://github.com/yourusername/free-image-generator.git
+
+# 2️⃣ Move into the folder
+cd free-image-generator
+
+# 3️⃣ (Optional) Create a virtual environment
+python -m venv venv
+
+# 4️⃣ Activate your venv
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 5️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 6️⃣ Run the app
+python Main/app.py
