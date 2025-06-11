@@ -11,26 +11,7 @@
 
 ---
 
-## 📸 Preview
-
-![Website Screenshot](assets/Screenshot.png)
-
----
-
-## 🎯 What is Free Image Generator?
-
-🎨 **Free Image Generator** is a fully open-source, AI-powered tool that allows anyone to easily generate stunning images directly from text prompts.
-
-With multiple models, creative themes, and custom aspect ratios — you can turn your imagination into art in seconds ⚡
-
-🖼️ Whether you're making anime art, fantasy worlds, futuristic cities, or even 3D robots — this app got you covered!
-
----
-
-## 🔧 Setup Guide (One Copy Setup ✅)
-
-<details>
-<summary>Click to expand setup instructions</summary>
+## 🔧 Setup Guide
 
 ```bash
 # Clone the repository
@@ -53,7 +34,6 @@ pip install -r requirements.txt
 
 # Run the application
 python Main/app.py
-<details>```
 
 ## 🌐 Application Usage
 
